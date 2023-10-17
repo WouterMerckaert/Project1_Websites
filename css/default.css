@@ -58,3 +58,14 @@ footer{
 footer p{
     text-align: right;
 }
+
+h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-align: center;
+}
+
+article.welkom{
+    padding: 3rem 5rem;
+}
