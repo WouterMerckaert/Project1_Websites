@@ -12,7 +12,7 @@ body {
 }
 
 p{
-    padding: 3rem 0;
+    padding: 3rem;
     margin: auto;
 }
 
@@ -58,7 +58,6 @@ h1{
     text-decoration: underline;
     text-align: center;
     padding-top: 3rem;
-    padding-bottom: 3rem;
 }
 
 article.welkom{
@@ -72,6 +71,8 @@ article.welkom{
 
 h2{
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     
 }
 
@@ -109,18 +110,17 @@ article.aboutme{
 
 .cv-container {
     display: flex;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
     flex-direction: column;
+    margin: 20px;
 }
 
-.cv-left {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+h2.cv{
+text-align: justify;
+padding: 1rem 3rem;
+}
+
+div.list_cv{
+    padding: 1rem 3rem;
 }
 
 .cv-image {
@@ -138,11 +138,11 @@ article.aboutme{
 }
 
 div.ervaring{
-    padding-bottom: 1rem;
+    padding: 1rem 3rem;
 }
 
 div.opleiding{
-    padding-bottom: 1rem;
+    padding: 1rem 3rem;
 }
   
 .hobby {
